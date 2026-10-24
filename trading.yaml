@@ -1,0 +1,16 @@
+# 交易客户端 / 交易网站分流规则集 —— Clash / Mihomo 专用
+# 覆盖：ATAS（经典版 / X / 更新程序）、NinjaTrader、Sierra Chart、Rithmic、Bookmap、
+#       DayTrader（32/64 位）、TradingView（网页 + 桌面版）、Topstep
+# 注意：每行只写 TYPE,VALUE，不要写策略名
+payload:
+  - PROCESS-NAME,OFT.Platform.Updater.exe
+  - PROCESS-NAME,NinjaTrader.exe
+  - PROCESS-NAME,SierraChart_64.exe
+  - PROCESS-NAME,OFT.Platform.exe
+  - PROCESS-NAME,Rithmic Trader Pro.exe
+  - PROCESS-NAME,Bookmap.exe
+  - PROCESS-NAME,daytrader64.exe
+  - PROCESS-NAME,daytraderX64.exe
+  - PROCESS-NAME,tradingview.exe
+  - DOMAIN-KEYWORD,tradingview
+  - DOMAIN-KEYWORD,topstep
