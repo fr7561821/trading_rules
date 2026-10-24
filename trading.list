@@ -1,0 +1,15 @@
+# 交易客户端 / 交易网站分流规则集 —— Surge / Loon / Shadowrocket 专用
+# 纯文本，一行一条，格式 TYPE,VALUE（不要写策略名，策略在 [Rule] 的 RULE-SET 行统一指定）
+# 覆盖：ATAS（经典版 / X / 更新程序）、NinjaTrader、Sierra Chart、Rithmic、Bookmap、
+#       DayTrader（32/64 位）、TradingView（网页 + 桌面版）、Topstep
+PROCESS-NAME,OFT.Platform.Updater.exe
+PROCESS-NAME,NinjaTrader.exe
+PROCESS-NAME,SierraChart_64.exe
+PROCESS-NAME,OFT.Platform.exe
+PROCESS-NAME,Rithmic Trader Pro.exe
+PROCESS-NAME,Bookmap.exe
+PROCESS-NAME,daytrader64.exe
+PROCESS-NAME,daytraderX64.exe
+PROCESS-NAME,tradingview.exe
+DOMAIN-KEYWORD,tradingview
+DOMAIN-KEYWORD,topstep
