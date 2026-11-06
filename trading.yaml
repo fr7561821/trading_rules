@@ -14,4 +14,4 @@ payload:
   - PROCESS-NAME,daytraderX64.exe
   - PROCESS-NAME,tradingview.exe
   - DOMAIN-KEYWORD,tradingview
-  - DOMAIN-KEYWORD,topstep
+ 
