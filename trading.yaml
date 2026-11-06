@@ -3,6 +3,8 @@
 #       DayTrader（32/64 位）、TradingView（网页 + 桌面版）、Topstep
 # 注意：每行只写 TYPE,VALUE，不要写策略名
 payload:
+  - DOMAIN-KEYWORD,topstep
+  - DOMAIN-KEYWORD,rithmic
   - PROCESS-NAME,OFT.Platform.Updater.exe
   - PROCESS-NAME,NinjaTrader.exe
   - PROCESS-NAME,SierraChart_64.exe
@@ -13,5 +15,3 @@ payload:
   - PROCESS-NAME,daytraderX64.exe
   - PROCESS-NAME,tradingview.exe
   - DOMAIN-KEYWORD,tradingview
-  - DOMAIN-KEYWORD,topstep
-  - DOMAIN-KEYWORD,rithmic
