@@ -3,6 +3,7 @@
 #       DayTrader（32/64 位）、TradingView（网页 + 桌面版）、Topstep
 # 注意：每行只写 TYPE,VALUE，不要写策略名
 payload:
+  - DOMAIN-SUFFIX,rithmic.com
   - DOMAIN-KEYWORD,topstep
   - DOMAIN-KEYWORD,rithmic
   - PROCESS-NAME,OFT.Platform.Updater.exe
